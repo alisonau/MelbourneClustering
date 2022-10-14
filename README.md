@@ -1,1 +1,3 @@
-# melbourneclustering
+# Clustering of Melbourne Housing Market
+
+The raw data used for this study is a .csv file of transactions regarding Melbourne housing sales from 2016 to 2018 and contains 34,857 observations and 21 variables. After inspection of this initial data set, we decided to retain 11 of the most relevant variables and only observations with complete data given the risk of skewing with imputing many missing data points. Following this decision, our working data set retains 8,887 observations and 11 variables (Type, Suburb, Rooms, Price, Distance, Bedroom2, Bathroom, Car, Landsize, BuildingArea, Age). Various clustering methods are used to segment the housing market.
